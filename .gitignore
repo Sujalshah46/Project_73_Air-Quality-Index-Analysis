@@ -1,10 +1,16 @@
-
-# System & Temporary Files
-.DS_Store
-.ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Large Files (>50MB) Ignored
-station_hour_Project_73_Air Quality Index Analysis.csv
-city_hour_Project_73_Air Quality Index Analysis.csv
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local configuration and environment
+.env
+app.log
